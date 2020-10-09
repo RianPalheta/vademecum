@@ -1,0 +1,54 @@
+footer{
+    width: 100%;
+    background-color: #101010;
+    padding: 10px 20px;
+}
+.rodape{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2, p{
+    color: #555555;
+}
+
+.sobre li{
+    list-style: none;
+    a{
+        text-decoration: none;
+        color: #555555;
+        transition: 0.5s ease;
+        &:hover{
+            color: #63F692;
+        }
+    }
+}
+.donate li{
+    list-style: none;
+    a{
+        text-decoration: none;
+        color: #555555;
+        transition: 0.5s ease;
+        &:hover{
+            color: #63F692;
+        }
+    }
+}
+.projeto li{
+    list-style: none;
+    a{
+        text-decoration: none;
+        color: #555555;
+        transition: 0.5s ease;
+        &:hover{
+            color: #63F692;
+        }
+    }
+}
+.cop p{
+    padding-top: 1%;
+    text-align: center;
+}
