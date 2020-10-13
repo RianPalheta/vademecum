@@ -20,17 +20,15 @@ h2{
     height: 100%;
     width: 100%;
 	margin: auto;
-	display: flex;
+    display: grid;
+    grid-template-areas: 
+    "item item item"
+    "item item item"
+    "item item item";
+    
     align-items: center;
     flex-direction: column;
     padding-bottom: 5%;
-}
-.organizacao{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    margin-top: 50px;
 }
 .codigos h3{
     margin-top: 5px;
