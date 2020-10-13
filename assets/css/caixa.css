@@ -1,0 +1,25 @@
+*{
+    max-width: 1200px;
+}
+#texto{
+    display: flex;
+}
+
+#caixa{
+    z-index: 9;
+    position: fixed;
+    margin-top: 15vh;
+    margin-left: 1%;
+    width: 15%;
+    height: 430px;
+    background-color: #e3e3e3;
+}
+#caixa li{
+    padding: 10px;
+    list-style: none;
+    text-align: center;
+    margin-left: -30%;
+}
+#caixa li a{
+    
+}

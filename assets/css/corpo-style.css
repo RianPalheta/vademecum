@@ -1,0 +1,156 @@
+main {
+  margin-top: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #1A1A1A;
+}
+
+.mains {
+  max-width: 1140px;
+  margin-top: 5px !important;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h2 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 34px;
+}
+
+#codigos {
+  max-width: 1140px;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 5%;
+}
+
+.organizacao {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.codigos h3 {
+  margin-top: 5px;
+}
+
+.codigos {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 15px;
+  margin-left: 50px;
+  color: black;
+  text-decoration: none;
+  border: 2px solid #1A1A1A;
+}
+
+.codigos.cc {
+  background-color: #479bc6;
+}
+
+.codigos.cc:hover {
+  border: 2px solid #479bc6;
+}
+
+.codigos.cf {
+  background-color: #099f30;
+}
+
+.codigos.cf:hover {
+  border: 2px solid #099f30;
+}
+
+.codigos.cpc {
+  background-color: #1a5b9d;
+}
+
+.codigos.cpc:hover {
+  border: 2px solid #1a5b9d;
+}
+
+.codigos.cp {
+  background-color: #b8412a;
+}
+
+.codigos.cp:hover {
+  border: 2px solid #b8412a;
+}
+
+.codigos.cpp {
+  background-color: #8f3726;
+}
+
+.codigos.cpp:hover {
+  border: 2px solid #8f3726;
+}
+
+.codigos.cppm {
+  background-color: #087212;
+}
+
+.codigos.cppm:hover {
+  border: 2px solid #087212;
+}
+
+.codigos.clt {
+  background-color: #936c10;
+}
+
+.codigos.clt:hover {
+  border: 2px solid #936c10;
+}
+
+.codigos.ctb {
+  background-color: #ce9b10;
+}
+
+.codigos.ctb:hover {
+  border: 2px solid #ce9b10;
+}
+
+.codigos.eca {
+  background-color: #24b9ea;
+}
+
+.codigos.eca:hover {
+  border: 2px solid #24b9ea;
+}
+/*# sourceMappingURL=corpo-style.css.map */

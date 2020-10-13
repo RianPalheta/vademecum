@@ -1,0 +1,87 @@
+footer {
+  width: 100%;
+  background-color: #101010;
+  padding: 10px 20px;
+}
+
+.rodape {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h2, p {
+  color: #555555;
+}
+
+.sobre li {
+  list-style: none;
+}
+
+.sobre li a {
+  text-decoration: none;
+  color: #555555;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.sobre li a:hover {
+  color: #63F692;
+}
+
+.donate li {
+  list-style: none;
+}
+
+.donate li a {
+  text-decoration: none;
+  color: #555555;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.donate li a:hover {
+  color: #63F692;
+}
+
+.projeto li {
+  list-style: none;
+}
+
+.projeto li a {
+  text-decoration: none;
+  color: #555555;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.projeto li a:hover {
+  color: #63F692;
+}
+
+.cop p {
+  padding-top: 1%;
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+  .rodape {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+}
+/*# sourceMappingURL=rodape-syle.css.map */
