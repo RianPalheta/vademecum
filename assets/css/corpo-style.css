@@ -71,6 +71,8 @@ h2 {
   color: black;
   text-decoration: none;
   border: 2px solid #1A1A1A;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
 }
 
 .codigos.cc {

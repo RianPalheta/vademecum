@@ -6,17 +6,17 @@ global $db;
 
 $config = array();
 if(ENVIRONMENT == 'development') {
-	define("BASE_URL", "http://localhost/vademecum/");
-	$config['dbname'] = 'vademecum';
+	define("BASE_URL", "https://mercadotucujur.com/");
+	$config['dbname'] = 'merc8158_vademecum';
 	$config['host'] = 'localhost';
-	$config['dbuser'] = 'root';
-	$config['dbpass'] = '';
+	$config['dbuser'] = 'merc8158_rian';
+	$config['dbpass'] = '#Aguinaldo1965#@';
 } else {
-	define("BASE_URL", "http://localhost/vademecum/");
-	$config['dbname'] = 'vademecum';
+	define("BASE_URL", "https://mercadotucujur.com/");
+	$config['dbname'] = 'merc8158_vademecum';
 	$config['host'] = 'localhost';
-	$config['dbuser'] = 'root';
-	$config['dbpass'] = '';
+	$config['dbuser'] = 'merc8158_rian';
+	$config['dbpass'] = '#Aguinaldo1965#@';
 }
 
 $db = new PDO("mysql:dbname=".$config['dbname'].";host=".$config['host'], $config['dbuser'], $config['dbpass']);

@@ -1,4 +1,7 @@
 <?php
+
+require './core/Controller.php';
+
 class homeController extends controller {
 
 	private $user;

@@ -9,9 +9,9 @@
     z-index: 9;
     position: fixed;
     margin-top: 15vh;
-    margin-left: 1%;
     width: 15%;
     height: 430px;
+    border-radius: 0px 20px 20px 0px;
     background-color: #e3e3e3;
 }
 #caixa li{
@@ -19,7 +19,4 @@
     list-style: none;
     text-align: center;
     margin-left: -30%;
-}
-#caixa li a{
-    
 }
